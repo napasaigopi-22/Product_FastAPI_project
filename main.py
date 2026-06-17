@@ -18,15 +18,5 @@ def home():
 def products():
     return "Please select any product you like"
 
-@app.post("/product")
-
-def product():
-    return {
-        
-        "name" : str,
-        "Roll No": str,
-        "Mobile No": int
-    }
-
 
              
