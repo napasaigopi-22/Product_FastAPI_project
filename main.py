@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from models import product
 
 app = FastAPI()
 
@@ -8,16 +9,12 @@ app = FastAPI()
 def main():
     return "Hello, World!"
 
-@app.get("/home")
-
-def home():
-    return "Welcome to home page"
+prod = [
+    product(item_no=1,name="soap",price=46.99,quantity=8,Description="beautiful soap and good frangrence")
+]
 
 @app.get("/products")
-
 def products():
-    return "Please select any product you like"
-
-
+    return prod
 
              
