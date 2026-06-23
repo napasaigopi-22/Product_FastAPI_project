@@ -21,7 +21,7 @@ prod = [
 def products():
     return prod
 
-#Get -- retrieve
+#Get -- retrieve/read
 @app.get("/products/{item_no}")
 def get_product_by_item(item_no: int):
     for product in prod:
