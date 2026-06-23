@@ -14,7 +14,9 @@ prod = [
     product(item_no=2,name="cottom",price=20.99,quantity=36,Description="smooth cotton"),
     product(item_no=3,name="conditioner",price=246.99,quantity=25,Description="beautiful conditioner and good frangrence"),
     product(item_no=4,name="shampoo",price=61.99,quantity=81,Description="beautiful shampoo and good frangrence"),
-    product(item_no=5,name="towel",price=89.99,quantity=18,Description="smooth cotton towel")
+    product(item_no=5,name="towel",price=89.99,quantity=18,Description="smooth cotton towel"),
+    product(item_no=4,name="Powder",price=12.99,quantity=13,Description="beautiful powder and good frangrence"),
+    product(item_no=5,name="shirt",price=189.99,quantity=118,Description="smooth cotton shirt")
 ]
 
 @app.get("/products")
