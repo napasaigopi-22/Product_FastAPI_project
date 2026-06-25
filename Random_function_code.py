@@ -15,7 +15,8 @@ print(printing_dogs_names("My pet name is","Daschund"))
 
 def list_str(list: list[str]):
     list = ["gopi", "sai", "napa", "nadh"]
-    while(list):
-        for i in list:
-            return list
+    lst = "  "
+    for i in list:
+        lst = i +" "+ lst
+    return lst
 print(list_str(list))
