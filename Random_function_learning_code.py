@@ -1,3 +1,9 @@
+# Functions is having the below function methods: range() is used to write the output between the values. 
+# Range contains range(start,stop,step)
+
+list = ["gopi", "sai", "napa", "nadh"]
+length = map()
+
 def printing_dogs_name(first_name, last_name):
     print_sentence= first_name + ":" + last_name
     return print_sentence
@@ -31,6 +37,10 @@ def python_code_with_union(items:str | None= None):
 
 print(python_code_with_union(items))
 
+age = 23
+name = "Gopi"
+print("I am "f"{name}" ",My age is " f"{age}")
+
 
 
 #Using lambda function: a small ananymous function that can have any number of arguments but only having one expression. 
@@ -52,3 +62,11 @@ from functools import reduce
 l = [1,2,3,4]
 mul = reduce(lambda x,y: x*y , l)
 print(mul)
+
+
+
+
+# web scraping using Beautifulsoup (BS4)
+
+from bs4 import BeautifulSoup
+import requests
